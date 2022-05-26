@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Script_1.js"></script>
+</head>
+
+<body>
+    <div id="Hide_L1" onclick="Hide_L1()">Исчезнет</div>
+    <ul id="menu_L1">
+        <li><a href="#" onclick="Link()">Текст 1</a></li>
+        <li><a href="#">Текст 2</a></li>
+        <li><a href="#">Текст 3</a></li>
+        <li><a href="#">Текст 4</a></li>
+        <li><a href="#">Текст 5</a></li>
+        <li><a href="#">Текст 6</a></li>
+    </ul>
+    <form action="" name="form" id="form">
+        <label for="female">Женский</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="male">Мужской</label>
+        <input type="radio" id="male" name="sex" value="male">
+        <br>
+        <span id="message"></span>
+        <br>
+        <input type="button" id="done" value="Готово" onclick="return chkValid()">
+    </form>
+    <div id="Attr">
+        <input type="button" value="Добавить альт" onclick="Alt()">
+        <img src="sda" alt="Изображение">
+        <img src="sas" alt="Изображение">
+        <img src="asda">
+        <img src="asa">
+    </div>
+</body>
+
+</html>

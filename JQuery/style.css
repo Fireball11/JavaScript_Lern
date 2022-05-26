@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 30px;
+}
+
+#Hide_L1 {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+
+#Attr {
+    margin: 40px;
+    width:min-content;
+}
